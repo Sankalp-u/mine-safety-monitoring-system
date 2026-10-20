@@ -11,12 +11,26 @@ An ESP32-based safety monitoring system for underground mines. Two wireless sens
 - VL53L0X - laser distance, roof/wall displacement
 - XL-B524SURSYGW 5 mm red/green LED (common anode)
 
+<p>
+  <img src="images/sensor-nodes-1.jpg" width="320" alt="The two sensor nodes on a shared breadboard, each with an ESP32, DHT11 and MQ-9 gas sensor">
+  <img src="images/sensor-nodes-2.jpg" width="320" alt="Sensor node wiring, top view">
+</p>
+
+*The two sensor nodes side by side (left) and node wiring from above (right): ESP32 with DHT11 and MQ-9 sensors.*
+
 **Main controller:**
 - ESP32 Dev Module
 - SSD1306 0.96" OLED (I2C)
 - GY-GPS6MV2 (NEO-6M) GPS
 - Buzzer
 - XL-B524SURSYGW red/green status LED
+
+<p>
+  <img src="images/controller-1.jpg" width="320" alt="Main controller: ESP32 with SSD1306 OLED, GY-GPS6MV2 GPS module with patch antenna, buzzer and status LED">
+  <img src="images/controller-2.jpg" width="320" alt="Main controller, another angle">
+</p>
+
+*The main controller: ESP32, OLED display, GY-GPS6MV2 GPS with patch antenna, buzzer and status LED.*
 
 ## How it works
 
